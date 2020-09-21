@@ -6,7 +6,8 @@ public class QandA {
 
 		System.out.println("Where are you from?");
 		sleep(500);
-		System.out.println("I'm from Beijing, China");
+		System.out.println("I'm from Beijing, China."
+				+ "I was actually born in LA but I grew up in China");
 		
 		System.out.println("What do you like to do?");
 		sleep(1000);
@@ -25,6 +26,16 @@ public class QandA {
 		sleep(1000);
 		System.out.println("I really don't like spicy food, I just can't tolerate it."
 				+ "Even if it's just a little spicy, I can't eat it anymore.");
+		
+		System.out.println("What's your favorite snack?");
+		sleep(1000);
+		System.out.println("I would probably say chocolate."
+				+ "I just really love sweets in general but my favorite would probably be chocolate.");
+		
+		System.out.println("What is your favorite time of the year?");
+		sleep(500);
+		System.out.println("Probably winter. I really love winter because I just prefer the cold more."
+				+ "Also because Christmas is during winter.");
 		
 	}
 
